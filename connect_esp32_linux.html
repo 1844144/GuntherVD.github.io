@@ -20,8 +20,9 @@
     <div class="code"># stat /dev/ttyUSB0</div>
     <p>In the reply we see in my case Gid:( 14/ uucp) meaning uucp is the usergroup we looking for.</p>
     <div class="code"># sudo usermod -a -G uucp $USER</div>
+    <p>Logout and back in to make the changes have effect.</p>
     <p>Run Putty. For Connection type choose Serial. As serial line use /dev/ttyUSB0. For speed we use 115200. Then press open.</p>
-    <p>Then i get a error i have to figure out.</p>
+    <p>Press the reset button on your ESP32. You should now see the communication of the ESP32 in Putty.</p>
 	</body>
 </html>
 

@@ -4,13 +4,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>connect_esp32_linux</title>
+		<title>Connect ESP32 with Linux</title>
 		<meta name="GuntherVD" content="Linux ESP32" />
 		<!-- Date: 2018-01-26 -->
 	</head>
 	<body>
 	<a href="index.html">Back to Main</a>
-    <p>Placeholder</p>
+    <p>How to get a ESP32 to connect with Linux.</p>
+    <p>With your ESP32 not connected, Run the following command.</p>
+    <div class="code"># ls /dev/tty*</div>
+    <p>Now Connect your ESP32 with your computer using a mini usb cable and repeat the previous command</p>
+    <div class="code"># ls /dev/tty*</div>
+    <p>The new device is your ESP32. in my case it is /dev/ttyUSB0.</p>
+    <p>Now we need to add our user in the usergroup that got access to this device. To find that group we do:</p>
+    <div class="code"># stat /dev/ttyUSB0</div>
+    <p>In the reply we see in my case Gid:( 14/ uucp) meaning uucp is the usergroup we looking for.</p>
+    <div class="code"># sudo usermod -a -G uucp $USER</div>
+    <p>Run Putty. For Connection type choose Serial. As serial line use /dev/ttyUSB0. For speed we use 115200. Then press open.</p>
+    <p>Then i get a error i have to figure out.</p>
 	</body>
 </html>
 

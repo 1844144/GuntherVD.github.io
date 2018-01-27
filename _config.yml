@@ -1,4 +1,4 @@
 theme: jekyll-theme-hacker
 name: Linux and Electronics
-markdown: kramdown
+markdown: markdown
 permalink: /blog/:year/:month/:day/:title

@@ -17,5 +17,4 @@ My main language is Dutch so if you see errors in my writing, feel free to send 
 Have alot of fun,
 Gunther,
 
-[Connect ESP32 with Linux](connect-ESP32-with-linux).
-[.](ref)
+[Connect ESP32 with Linux](connect-ESP32-with-linux)

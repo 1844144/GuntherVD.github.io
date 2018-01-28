@@ -4,3 +4,4 @@ show_downloads: false
 google_analytics: true
 theme: jekyll-theme-hacker
 comments: true
+google_analytics: UA-113147957-1

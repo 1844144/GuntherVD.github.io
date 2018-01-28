@@ -4,6 +4,8 @@ layout: default
 
 ## Connect ESP32 with linux
 
+![](assets/images/esp32.png)
+
 Unlike windows, linux don't have com1, com2 and so on. In Linux devices are found in the /dev/ directory. In order to find the port of our ESP32 we unplug the ESP32 and type in a prompt:
 
 ```

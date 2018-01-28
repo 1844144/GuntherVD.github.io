@@ -20,7 +20,7 @@ Now Connect your ESP32 and repeat the previous command
 # ls /dev/tty*
 ```
 
-The new device is your ESP32. in my case it is /dev/ttyUSB0. Now we need to add our user to the usergroup that may connect to the serial devices. In order to find this usergroup se use the following command. Replace ttyUSB0 with the devicename you found.
+The new device is your ESP32. in my case it is /dev/ttyUSB0. Now we need to add our user to the usergroup that may connect to the serial devices. In order to find this usergroup we use the following command. Replace ttyUSB0 with the devicename you found.
 
 ```
 # stat /dev/ttyUSB0

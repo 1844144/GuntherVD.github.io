@@ -1,5 +1,5 @@
-title: Hacker theme
-description: Hacker is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+title: Linux and Electronics
+description: Here i share my journey of making electronics projects with Linux.
+show_downloads: false
+google_analytics: true
 theme: jekyll-theme-hacker

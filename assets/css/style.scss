@@ -1,8 +1,8 @@
 ---
 ---
-
-@import 'jekyll-theme-hacker';
 header h1::before {
-    content: "-->";
+    content: ".oO0 ";
     font-size: 24px;
 }
+
+@import 'jekyll-theme-hacker';

@@ -4,7 +4,7 @@ layout: default
 
 ## Connect ESP32 with linux
 
-The ESP32 i am using for this example is the [ESP32 DevKitC](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview) from Espressif
+The ESP32 i am using for this guide is the [Espressif ESP32 DevKitC](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview). Left from the usb connector is the EN button and right the BOOT button. More on thet later.
 
 ![](assets/images/esp32.jpg)
 
@@ -49,11 +49,9 @@ Select Serial for Connection type. For the serial line fill the device you found
 ![](assets/images/putty_con.png)
 
 Next thing you will see is a empty terminal. Dont be scared, this is normal.
+Press the EN button left from the usb connector. Now you will see some communication between your computer and the ESP32.
+Congrats your ESP32 is connected to your Linux.
 
-
-
-
-
-
+![](assets/images/putty_term.png)
 
 [back](./)

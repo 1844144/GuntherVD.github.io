@@ -41,7 +41,10 @@ For the connection i use [Putty](https://www.putty.org/). You can use any termin
 Now start putty.
 
 Select Serial for Connection type. For the serial line fill the device you found before. For me this is /dev/ttyUSB0 and the port is 115200. Optionan you may save the session by typing in a name in the Saved Sessions field and click save. As you can see in the example i saved my session as ESP32. Finaly click Open to connect your ESP32.
+
 ![](assets/images/putty_con.png)
+
+Next thing you will see is a empty terminal. Dont be scared, this is normal.
 
 
 

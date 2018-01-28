@@ -3,3 +3,5 @@ description: My journey of making electronics projects with Linux.
 show_downloads: false
 google_analytics: false
 theme: jekyll-theme-hacker
+markdown: kramdown
+highlighter: rouge

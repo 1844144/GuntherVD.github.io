@@ -58,5 +58,5 @@ Congrats your ESP32 is connected to your Linux.
 [back](./)
 
 {% if page.comments %}
-
+{% include disqus.html %}
 {% endif %} 

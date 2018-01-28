@@ -4,7 +4,7 @@ layout: default
 
 ## Connect ESP32 with linux
 
-### 2018/01/28 GuntherVD
+#### 2018/01/28 GuntherVD
 
 The ESP32 i am using for this guide is the [Espressif ESP32 DevKitC](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview). Left from the usb connector is the EN button and right the BOOT button. More on thet later.
 

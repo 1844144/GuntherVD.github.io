@@ -4,6 +4,8 @@ layout: default
 
 ## Connect ESP32 with linux
 
+The ESP32 i am using for this example is the [ESP32 DevKitC](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview) from Espressif
+
 ![](assets/images/esp32.jpg)
 
 Unlike windows, linux don't have com1, com2 and so on. In Linux devices are found in the /dev/ directory. In order to find the port of our ESP32 we unplug the ESP32 and type in a prompt:

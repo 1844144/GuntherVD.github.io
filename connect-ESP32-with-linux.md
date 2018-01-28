@@ -56,3 +56,5 @@ Congrats your ESP32 is connected to your Linux.
 ![](assets/images/putty_term.png)
 
 [back](./)
+
+{% include disqus.html %}

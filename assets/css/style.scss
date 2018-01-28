@@ -1,8 +1,4 @@
 ---
 ---
-header h1::before {
-    content: ".oO0 ";
-    font-size: 24px;
-}
 
-@import 'jekyll-theme-hacker';
+@import "{{ site.theme }}";

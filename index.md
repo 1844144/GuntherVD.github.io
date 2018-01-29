@@ -18,3 +18,5 @@ Have alot of fun,
 Gunther,
 
 [Connect ESP32 with Linux](connect-ESP32-with-linux)
+
+[Terminal commands for ESP32](terminal-com)

@@ -21,19 +21,16 @@ Please refer to document ssc_commands.xlsx
 
 #### op
 The op command query or set the module.
-
 The synthax looks like `op <parrameter> <mode>`
-
 The parrameter's are:
 
-`-Q` Query Wi-Fi mode
+`-Q` Query Wi-Fi mod. This command returns the current state of the module.
 
-`-S` Set Wi-Fi mode folowed by the <mode>
-
+`-S` Set Wi-Fi mode folowed by the <mode>. This command set the module in the wanted state.
 Mode options are:
 
 `-o 1`=STA mode
-
+  
 `-o 2`=AP mode
 
 `-o 3`=STA+AP mode

@@ -17,6 +17,8 @@ My main language is Dutch so if you see errors in my writing, feel free to send 
 Have alot of fun,
 Gunther,
 
+[Software used in the guides](used-software)
+
 [Connect ESP32 with Linux](connect-ESP32-with-linux)
 
 [Terminal commands for ESP32](terminal-com)

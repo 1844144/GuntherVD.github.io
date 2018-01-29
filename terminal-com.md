@@ -9,4 +9,4 @@ Comming soon...
 
 [back](./)
 
-{% include disqus %}
+{% include disqus.html %}

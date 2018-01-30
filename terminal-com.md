@@ -9,7 +9,7 @@ In the Terminal window you should see a prompt `:>` if you don't see this press 
 
 ### SSC Commands
 
-#### Help
+#### help
 The help command refers to the command list file. Unfortunaly the official Esperiff document is no longer online.
 ```
 :>help
